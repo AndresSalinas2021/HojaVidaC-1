@@ -1,0 +1,37 @@
+@model List<string>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referencias</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Referencias</h1>
+
+        <!-- Mostrar las referencias existentes -->
+        <ul class="list-group">
+            @foreach (var reference in Model)
+            {
+                <li class="list-group-item">@reference</li>
+            }
+        </ul>
+
+        <!-- Formulario para agregar nueva referencia -->
+        <form asp-action="AddReference" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="newReference">Agregar nueva referencia:</label>
+                <input type="text" name="newReference" class="form-control" placeholder="Nueva referencia" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

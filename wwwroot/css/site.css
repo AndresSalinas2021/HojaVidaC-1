@@ -1,22 +1,55 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffcccc, #ff9999);
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  width: 150px; /* Tamaño inicial por defecto */
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.details, .experience {
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #ff3333;
+}
+
+.experience ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.experience ul li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ff33ff;
 }

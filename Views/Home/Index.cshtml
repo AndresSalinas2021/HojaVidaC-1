@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoja de Vida</title>
+    <title>Hoja de Vida C#</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +13,10 @@
             color: #333;
             padding: 20px;
         }
+
+        /* .photo {
+            width: @Model.PhotoSize px;
+            height: auto; */
 
         .container {
             width: 80%;
@@ -60,7 +64,7 @@
         }
 
         .btn:hover {
-            background-color: #ff3333;
+            background-color: #ff33ff;
         }
     </style>
 </head>
@@ -71,17 +75,29 @@
         <div class="details">
             <p><strong>Fecha de Nacimiento:</strong> @Model.BirthDate.ToShortDateString()</p>
         </div>
+        <!-- Botones para cambiar el tamaño de la foto -->
+        <button onclick="changePhotoSize(-10)">Redicir tamaño</button>
+        <button onclick="changePhotoSize(10)">Incrementar tamaño</button>
+        <script>
+            function changePhotoSize(delta) {
+                var img = document.querySelector('.photo');
+                var currentSize = img.style.width ? parseInt(img.style.width) : 50; // Tamaño por defecto
+                img.style.width = (currentSize + delta) + 'px';
+            }
+        </script>
+
         <div class="experience">
             <h2>Experiencia</h2>
             <ul>
-                @foreach (var exp in Model.Experiences)
+                @foreach (var experience in Model.Experiences)
                 {
-                    <li>@exp</li>
+                    <li>@experience</li>
                 }
             </ul>
+            <!-- Formularios para agregar experiencia -->
             <form asp-action="AddExperience" method="post">
                 <input type="text" name="newExperience" placeholder="Agregar nueva experiencia">
-                <button type="submit" class="btn">Agregar</button>
+                <button type="submit" class="btn">Agregar Experiencia</button>
             </form>
         </div>
     </div>

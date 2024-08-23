@@ -28,3 +28,4 @@ C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVi
 C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\obj\Debug\net8.0\HojaDeVida.pdb
 C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\obj\Debug\net8.0\HojaDeVida.genruntimeconfig.cache
 C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\obj\Debug\net8.0\ref\HojaDeVida.dll
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\obj\Debug\net8.0\HojaDeVida.sourcelink.json
