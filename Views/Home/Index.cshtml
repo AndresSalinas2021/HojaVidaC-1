@@ -6,7 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida C#</title>
-    <style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(to bottom, #ffcccc, #ff9999);
@@ -66,7 +68,7 @@
         .btn:hover {
             background-color: #ff33ff;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <div class="container">
@@ -100,6 +102,11 @@
                 <button type="submit" class="btn">Agregar Experiencia</button>
             </form>
         </div>
+        <!-- Formulario para reiniciar variables -->
+        <form asp-action="Reset" method="post">
+            <input type="text" name="resetCode" placeholder="Ingrese código de reinicio">
+            <button type="submit" class="btn">Reiniciar</button>
+        </form>
     </div>
 </body>
 </html>
