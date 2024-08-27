@@ -1,0 +1,7 @@
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\HojaDeVida.exe
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\appsettings.Development.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\appsettings.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\HojaDeVida.dll
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\HojaDeVida.deps.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\HojaDeVida.runtimeconfig.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\publish\HojaDeVida.pdb

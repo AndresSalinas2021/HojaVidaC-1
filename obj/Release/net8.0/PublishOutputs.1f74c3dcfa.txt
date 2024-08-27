@@ -1,0 +1,12 @@
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\HojaDeVida.exe
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\publish\web.config
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\appsettings.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\publish\appsettings.Development.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\publish\appsettings.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\publish\HojaDeVida.deps.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\publish\HojaDeVida.runtimeconfig.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\HojaDeVida.dll
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\HojaDeVida.deps.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\HojaDeVida.runtimeconfig.json
+C:\Users\andre\OneDrive\Escritorio\hojas subir en linea\Hoja C# asp_net\HojaDeVida\bin\Release\net8.0\publish\HojaDeVida.pdb
